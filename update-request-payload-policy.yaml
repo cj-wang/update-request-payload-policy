@@ -1,0 +1,25 @@
+id: Update Request Payload
+name: Update Request Payload
+description: Update Request Payload
+category: Custom
+type: custom
+resourceLevelSupported: true
+encryptionSupported: false
+standalone: true
+requiredCharacteristics: []
+providedCharacteristics: []
+configuration:  
+- propertyName: fieldSelector
+  name: Field Seletor
+  description: 
+  type: string
+  optional: false
+  sensitive: false
+  allowMultiple: false
+- propertyName: newValue
+  name: New Value
+  description: 
+  type: string
+  optional: false
+  sensitive: false
+  allowMultiple: false
